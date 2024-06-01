@@ -1,0 +1,355 @@
+* {
+    margin: 0px;
+    padding: 0px;
+   
+}
+body{
+    background-color: rgb(39, 39, 39);
+}
+.main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("netflixbg.jpg");
+    width: 100%;
+    position: relative;
+    height: 700px;
+
+}
+
+.nav img {
+    height: 78px;
+    width: 200px;
+    margin-left: 200px;
+    /* padding-top: 50px; */
+}
+
+.nav {
+    display: flex;
+    /* justify-content: center; */
+}
+
+div .btn {
+    margin-left: 700px;
+    padding: 15px 36px;
+    background-color: transparent;
+}
+
+button {
+    margin-left: 10px;
+
+
+}
+
+#btn1 {
+
+    width: 122px;
+    height: 32px;
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid whitesmoke;
+    border-radius: 5px;
+}
+
+#btn2 {
+    width: 80px;
+    height: 32px;
+    background-color: rgb(200, 5, 5);
+
+    border: 0.5px solid rgb(200, 5, 5);
+    border-radius: 5px;
+}
+
+#btn1:hover {
+    border: 0.5px solid rgb(200, 5, 5);
+    color: rgb(200, 5, 5);
+
+}
+
+#btn2:hover {
+    background-color: rgb(165, 0, 0);
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 75px;
+    margin-top: 200px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+h4 {
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input {
+    height: 56px;
+    width: 374px;
+    padding-left: 20px;
+    font-size: medium;
+    background-color: transparent;
+    border: 0.5px solid rgba(255, 255, 255, 0.658);
+    border-radius: 5px;
+    margin-left: 460px;
+    color: whitesmoke;
+}
+
+#btn3 {
+    height: 56px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 0.5px solid red;
+}
+
+.box {
+    margin-top: 7px;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 50px;
+}
+
+.box1 {
+    text-align: top;
+    background-color: black;
+    color: white;
+}
+
+.box2 {
+    background-color: black;
+
+}
+
+.box2 img {
+    position: relative;
+    z-index: 10;
+}
+
+.box2 video {
+    position: absolute;
+    right: 207px;
+    padding-top: 90px;
+}
+
+.mobile{
+
+    margin-top: 7px;
+    height: 500px ;
+    width: 100%;
+   
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.mgimage {
+    width: 410px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.monitor {
+    margin-top: 7px;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 50px;
+}
+
+.monitor1 {
+    text-align: top;
+    background-color: black;
+    color: white;
+}
+
+.monitor2 {
+    background-color: black;
+
+}
+
+.monitor2 img {
+    position: relative;
+    z-index: 10;
+}
+
+.monitor2 video {
+    position: absolute;
+    right: 225px;
+    padding-top: 40px;
+    background-size: cover;
+}
+
+.child{
+
+    margin-top: 7px;
+    height: 500px ;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.childimage {
+    width: 410px;
+    height: 300px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    margin-top: 7px;
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+}
+
+p{
+    padding-top: 100px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.li1{
+    width: 1158px;
+    height:40px ;
+    background-color:rgb(39, 39, 39) ;
+    margin-bottom: 10px;
+    padding: 24px;
+    
+}
+.li1:hover{
+    background-color: rgba(108, 107, 107, 0.45);
+    transition-duration: 0.7s
+}
+.li2{
+    width: 1158px;
+    height:40px ;
+    background-color:rgb(39, 39, 39) ;
+    margin-bottom: 10px;
+    padding: 24px;
+
+}
+
+.li2:hover{
+    background-color: rgba(108, 107, 107, 0.45);
+    transition-duration: 1s
+}
+
+.li3{
+    width: 1158px;
+    height:40px ;
+    background-color:rgb(39, 39, 39) ;
+    margin-bottom: 10px;
+    padding: 24px;
+
+}
+
+.li3:hover{
+    background-color: rgba(108, 107, 107, 0.45);
+    transition-duration: 1s
+}
+.li4{
+    width: 1158px;
+    height:40px ;
+    background-color:rgb(39, 39, 39) ;
+    margin-bottom: 10px;
+    padding: 24px;
+}
+.li4:hover{
+    background-color: rgba(108, 107, 107, 0.45);
+    transition-duration: 1s
+}
+.li5{
+    width: 1158px;
+    height: 40px ;
+    background-color:rgb(39, 39, 39) ;
+    margin-bottom: 10px;
+    padding: 24px;
+}
+.li5:hover{
+    background-color: rgba(108, 107, 107, 0.45);
+    transition-duration: 1s
+}
+.li6{
+    width: 1158px;
+    height:40px ;
+    background-color:rgb(39, 39, 39) ;
+    padding: 23px;
+    margin-bottom: 40px;
+}
+.li6:hover{
+    background-color: rgba(108, 107, 107, 0.45);
+    transition-duration: 1s
+}
+#h3{
+    text-align: left;
+    font-weight: normal;
+}
+
+h4 #last{
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+#manu {
+    margin-top: 30px;
+    height: 56px;
+    width: 374px;
+    padding-left: 20px;
+    font-size: medium;
+    background-color: transparent;
+    border: 0.5px solid rgba(255, 255, 255, 0.658);
+    border-radius: 5px;
+    margin-left: 460px;
+    color: white;
+}
+
+#manu1 {
+    height: 56px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 0.5px solid red;
+}
